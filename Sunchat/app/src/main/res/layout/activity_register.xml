@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="registerViewModel"
+            type="hcmute.edu.vn.chatapp.viewmodels.RegisterViewModel" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/clRegisterActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.Activity.RegisterActivity">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/activity_register.next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/ic_arrow_back"
+            app:backgroundTint="@color/blue"
+            app:tint="@color/white"
+            android:enabled="false" />
+
+        <FrameLayout
+            android:id="@+id/activity_register.content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?android:attr/actionBarSize" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

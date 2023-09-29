@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+
+    <string name="login_text">Đăng nhập</string>
+    <string name="register_text">Đăng ký</string>
+    <string name="loading_text">Đang xử lý..</string>
+    <string name="hint_input_zalo_name_text">Gồm 2–40 kí tự</string>
+    <string name="hint_input_number_phone_text">Nhập số điện thoại</string>
+    <string name="gender_text">Giới tính</string>
+    <string name="birthdate_text">Ngày sinh</string>
+</resources>
